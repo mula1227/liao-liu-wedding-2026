@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fusion Pixel';
-  src: url('./wedding-font.woff2') format('woff2');
+  src: url('./wedding-font.woff2?v=lunar') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 400 900;
@@ -78,20 +78,25 @@ svg { shape-rendering: crispEdges; }
 .pixel-petals i { position: absolute; top: -8%; width: 5px; height: 5px; background: #ffafc2; box-shadow: 6px 4px #fff0d8; animation: petalFall var(--fall, 6s) linear infinite; animation-delay: var(--delay, 0s); }
 
 /* Invitation */
-.notice { background: #8fc56a; background-image: radial-gradient(circle, #d5ed9d 1px, transparent 2px), linear-gradient(90deg, #79ad5930 50%, transparent 50%), linear-gradient(#a9d77c30 50%, transparent 50%); background-size: 27px 27px, 18px 18px, 18px 18px; }
-.invitation-board { position: relative; z-index: 2; padding: 31px 19px 18px; border: 8px solid var(--wood); outline: 4px solid var(--wood-light); background: var(--paper); box-shadow: inset 0 0 0 3px #ffe3a0, 8px 9px #527942; text-align: center; }
+.notice { background: #a92e36; background-image: radial-gradient(circle, #f3d295 1px, transparent 2px), linear-gradient(90deg, #7c1c2730 50%, transparent 50%), linear-gradient(#dd6b5830 50%, transparent 50%); background-size: 27px 27px, 18px 18px, 18px 18px; }
+.notice .section-heading p { color: #fff0ce; }
+.notice .section-heading h2 { color: #ffe3ac; text-shadow: 2px 2px #71303a, -1px -1px #fff2cf; }
+.notice .section-heading > svg { fill: #f3d59b; filter: drop-shadow(2px 2px #7d2730); }
+.notice .section-heading h2::after { color: #f2d195; }
+.invitation-board { position: relative; z-index: 2; padding: 31px 19px 18px; border: 8px solid #d6b77e; outline: 4px solid #f3dfb2; background: var(--paper); box-shadow: inset 0 0 0 3px #fff0cc, 8px 9px #76232c; text-align: center; }
 .invitation-board::before { content: ''; position: absolute; inset: 9px; border: 2px dashed #b97846; pointer-events: none; }
 .board-kicker { position: relative; margin: 0 0 8px; color: #9d4054; font-size: 10px; letter-spacing: .14em; }
 .invitation-board h3 { position: relative; margin: 0; color: #9c4a4f; font-size: clamp(21px, 6vw, 27px); text-shadow: 2px 2px #e7a65e; }
 .board-message { position: relative; margin: 15px auto 16px; max-width: 290px; font-size: 11px; line-height: 1.9; }
-.vine { position: absolute; z-index: 2; top: -8px; width: 22px; height: 92px; background: repeating-linear-gradient(145deg, #46743d 0 5px, transparent 6px 12px); }
+.vine { position: absolute; z-index: 2; top: -8px; width: 22px; height: 92px; background: repeating-linear-gradient(145deg, #a27542 0 5px, transparent 6px 12px); }
 .vine-left { left: -7px; }.vine-right { right: -7px; transform: scaleX(-1); }
 .event-list { position: relative; margin: 0; text-align: left; }
 .event-list div { display: grid; grid-template-columns: 76px 1fr; gap: 8px; padding: 10px 0; border-top: 2px dashed #bd824c; }
 .event-list dt { display: flex; align-items: center; gap: 5px; color: #7e4139; font-size: 11px; font-weight: 900; }
 .event-list dt svg { width: 16px; height: 16px; fill: #a24c54; }
 .event-list dd { margin: 0; font-size: 11px; line-height: 1.7; }
-.calendar-card { position: relative; z-index: 2; margin-top: 27px; border: 5px solid var(--wood); background: var(--paper-light); box-shadow: 7px 8px #527942; }
+.lunar-date { display: block; }
+.calendar-card { position: relative; z-index: 2; margin-top: 27px; border: 5px solid #d6b77e; background: var(--paper-light); box-shadow: 7px 8px #76232c; }
 .season-line { padding: 9px; color: #fff4ca; background: #b85b50; border-bottom: 3px solid #733b35; text-align: center; font-size: 11px; letter-spacing: .1em; }
 .calendar-main { display: flex; align-items: center; justify-content: center; gap: 19px; padding: 16px; }
 .calendar-main strong { color: #b74e57; font-size: 55px; line-height: 1; text-shadow: 3px 3px #dda05f; }
