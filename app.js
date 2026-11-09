@@ -11,9 +11,9 @@ const weddingConfig = {
   calendarMonth: 'NOV',
   calendarDay: '28',
   calendarYear: '2026',
-  venue: '资阳市长春镇许家坝',
+  venue: '资阳区长春镇许家坝',
   venueShort: '许家坝',
-  navigationUrl: 'https://uri.amap.com/search?keyword=%E8%B5%84%E9%98%B3%E5%B8%82%E9%95%BF%E6%98%A5%E9%95%87%E8%AE%B8%E5%AE%B6%E5%9D%9D&src=stardew-wedding&callnative=1',
+  navigationUrl: 'https://uri.amap.com/search?keyword=%E8%B5%84%E9%98%B3%E5%8C%BA%E9%95%BF%E6%98%A5%E9%95%87%E8%AE%B8%E5%AE%B6%E5%9D%9D&src=stardew-wedding&callnative=1',
   schedule: [
     { label: '签到', time: '', description: '领取今日任务，与老朋友相见' },
     { label: '仪式', time: '', description: '见证拥抱、誓言与交换戒指' },
